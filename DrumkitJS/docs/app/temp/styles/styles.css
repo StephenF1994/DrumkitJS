@@ -1,0 +1,81 @@
+
+body{
+	font-family: 'Do Hyeon', sans-serif;
+	background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../../assets/images/Background-image.jpg');
+	max-width: 100%;
+	margin: 0;
+
+}
+
+.wrapper{
+	width: 100%;
+
+}
+
+.wrapper h1{
+	font-size: 3rem;
+	text-align: center;
+	color:  #ff6e21;
+	padding-top: 2%;
+	}
+
+.container{
+	width: 100%;
+	text-align: center;
+
+}
+
+.container .heading{
+	font-size: 3rem;
+	color: #fff;
+}
+
+.__piano{
+	margin-top: 4%;
+	
+}
+
+.__drums{
+	margin-top: 4%;
+	
+}
+
+.key{
+	width: 4rem;
+	height: 120px;
+	
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 2%;
+	transition: ease-in-out 0.1s;
+
+}
+
+.key kbd{
+	font-size: 3rem;
+	color: #ff6e21;
+	height: 100px;
+}
+
+.key span{
+	display: block;
+	position: relative;
+	color: #fff;
+	position: relative;
+	top: 20px;
+}
+
+.PressKey{
+	
+	background-color: #ff6e21;
+	-webkit-transform: scale(1.2);
+	        transform: scale(1.2);
+}
+
+
+
+
+
+
+
+
